@@ -1,1 +1,27 @@
+body {
+  font-family: EB Garamon, serif;
+}
+.box {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+}
 
+h1 {
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 100;
+}
