@@ -1,11 +1,18 @@
 body {
   font-family: EB Garamon, serif;
 }
-.box {
+
+.box-wrapper {
   max-width: 680px;
   margin: 0 auto;
+}
+.box {
   padding: 20px;
   border: 1px solid #dadde1;
+}
+
+.overview {
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -24,4 +31,21 @@ li {
   font-size: 18px;
   line-height: 25px;
   font-weight: 100;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature small {
+  position: relative;
+  top: -32px;
 }
