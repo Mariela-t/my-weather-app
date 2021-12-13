@@ -29,9 +29,12 @@ ul {
 li {
   list-style: none;
   font-size: 18px;
-  text-transform: capitalize;
   line-height: 25px;
   font-weight: 100;
+}
+
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .weather-temperature img {
