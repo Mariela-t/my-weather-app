@@ -37,6 +37,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.float-left {
+  float: left;
+}
+
 .weather-temperature img {
   margin-right: 5px;
   height: 64px;
