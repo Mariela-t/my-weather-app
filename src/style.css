@@ -15,6 +15,13 @@ body {
   margin-bottom: 10px;
 }
 
+.button {
+  background-color: #48484a;
+  color: white;
+  border: 1px solid rgba(124, 123, 123, 0.411);
+  border-radius: 5px;
+}
+
 h1 {
   font-size: 35px;
   line-height: 28px;
@@ -86,4 +93,8 @@ li:first-letter {
 }
 .forecast-temp-min {
   opacity: 0.4;
+}
+
+.box-wrapper small a {
+  text-decoration: none;
 }
