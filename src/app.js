@@ -113,6 +113,9 @@ function enterCity(event) {
   event.preventDefault();
   let cityInput = document.querySelector("#search").value;
   search(cityInput);
+
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
 }
 
 function convertToFahrenheit(event) {
